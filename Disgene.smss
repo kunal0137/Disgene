@@ -1,0 +1,15 @@
+Base Properties 
+ENGINE	Disgene
+OWL	db/Disgene/Disgene_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_INSIGHTS	db/Disgene/insights_database
+SOLR_RELOAD	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_TYPE	H2_DB
+DRIVER	org.sqlite.JDBC
+USERNAME	
+PASSWORD	
+CONNECTION_URL	jdbc:sqlite:@BaseFolder@/db/@ENGINE@/disgenet_2017.db
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true
